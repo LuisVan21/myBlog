@@ -12,22 +12,27 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header{
+.header {
     background-color: azure;
     margin: 0;
     width: 100%;
 
     .nav {
-
         padding: 10px 0;
         background-color: #000B58;
-        .nav-list{
+
+        .nav-list {
             display: flex;
-            color:red;
+            color: #ffffff;
             list-style: none;
             justify-content: space-evenly;
 
+            &:hover {
+                color: #006A67;
+                font-size: 1.2rem;
+                transition: 0.5s;
+                font-weight: 500;
+            }
         }
     }
-
 }
